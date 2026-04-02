@@ -12,4 +12,5 @@ jobs:
       - name: Run tests
         run: |
           pip install pytest
-          pytest
+          # Вказуємо шлях до папки з тестами явно
+          pytest tests/
