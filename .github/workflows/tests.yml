@@ -12,6 +12,6 @@ jobs:
       - name: Run tests
         run: |
           pip install pytest
-          # Цей рядок каже роботу шукати файл app.py в основній папці
+          # Цей рядок каж роботу шукати файл app.py в основній папці
           export PYTHONPATH=$PYTHONPATH:.
           pytest
